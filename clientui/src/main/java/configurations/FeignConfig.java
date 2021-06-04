@@ -1,5 +1,7 @@
 package configurations;
 
+import java.nio.charset.Charset;
+
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 

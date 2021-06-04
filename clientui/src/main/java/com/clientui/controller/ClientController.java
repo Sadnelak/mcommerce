@@ -41,7 +41,6 @@ public class ClientController {
     * */
     @RequestMapping("/")
     public String accueil(Model model){
-
         List<ProductBean> produits =  ProduitsProxy.listeDesProduits();
 
         model.addAttribute("produits", produits);
